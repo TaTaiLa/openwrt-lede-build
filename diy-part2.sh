@@ -28,3 +28,6 @@ cp ./replace/LEDE/hw2add/mt7621_xiaomi_mi-router-4a-gigabit-v2.dts  ./target/lin
 cp ./replace/LEDE/hw2add/mt7621.mk  ./target/linux/ramips/image/mt7621.mk
 cp ./replace/LEDE/hw2add/01_leds  ./target/linux/ramips/mt7621/base-files/etc/board.d/01_leds
 cp ./replace/LEDE/hw2add/02_network  ./target/linux/ramips/mt7621/base-files/etc/board.d/02_network
+echo "copy ok"
+rm -rf ./replace
+echo "del ok"
