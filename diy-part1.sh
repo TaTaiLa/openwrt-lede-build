@@ -17,9 +17,9 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-git clone https://github.com/EOYOHOO/UA2F.git package/UA2F
+# git clone https://github.com/EOYOHOO/UA2F.git package/UA2F
 # git clone https://github.com/Zxilly/UA2F.git package/UA2F
-git clone https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
+# git clone https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
 
 git clone https://github.com/MrTaiKe/Action_OpenWrt_Xiaomi_R4AGv2.git ./replace
 cp ./replace/LEDE/hw2add/476-mtd-spi-nor-add-eon-en25q128.patch  ./target/linux/generic/pending-5.10/476-mtd-spi-nor-add-eon-en25q128.patch
